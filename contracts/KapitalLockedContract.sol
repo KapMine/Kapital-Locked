@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "./Ownable.sol";
 import "./IERC20.sol";
 
-contract KAPMineLockedContract is Ownable {
+contract KapitalLockedContract is Ownable {
 
   uint256 private _totalSupply;
   uint256 private _lockedSupply;
